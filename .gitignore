@@ -47,6 +47,7 @@ web_modules/
 
 # TypeScript cache
 *.tsbuildinfo
+next-env.d.ts
 
 # Optional npm cache directory
 .npm
@@ -91,6 +92,18 @@ out
 .nuxt
 dist
 
+# misc
+.DS_Store
+*.pem
+
+
+
+# production
+/build
+
+# testing
+/coverage
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -121,6 +134,9 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# vercel
+.vercel
 
 # yarn v2
 .yarn/cache
