@@ -1,5 +1,6 @@
+"use client"; 
 import { useState } from 'react';
-import ImageModal from './ImageModal';
+import ImageModal from '@/components/ImageModal';
 
 const images = [
   '/images/image1.jpg',
