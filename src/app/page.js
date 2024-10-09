@@ -6,7 +6,7 @@ export default function Home() {
 
       <ImageGallery>
         <h1 className="text-center text-4xl font-bold text-gray-800 py-8">
-           My Image Gallery
+           Anita González Delgado Gallery
         </h1>
       </ImageGallery>
   );
